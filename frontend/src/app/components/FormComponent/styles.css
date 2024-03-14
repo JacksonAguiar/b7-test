@@ -1,0 +1,27 @@
+.form-section .input-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.form-section button {
+  margin-left: auto;
+}
+.form-section .input-group input:nth-child(2),
+input:nth-child(3) {
+  width: 50%;
+}
+
+.form-section .error-msg {
+  color: red;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
